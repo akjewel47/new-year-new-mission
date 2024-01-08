@@ -90,7 +90,8 @@ line-height: 30px;
 .park-hotel{
  width: 80%;
  margin:auto;
-  padding-top: 80px;
+ padding-top: 80px;
+ padding-bottom: 80px;
  border-radius: 20px;
  background-color: #fff8f3;
 margin-top: 80px;
@@ -114,34 +115,75 @@ padding: 20px;
 
 /* Best offer 2024 section style 5 */
 
-.best-offer-section{
+/* .best-offer-section{
  width: 80%;
  margin:auto;
  padding-top: 80px;
  margin-top: 100px;
- display: flex;
+ display:flex;
+ flex-direction: row;
+ row-gap: 150px;
  justify-content: center;
  column-gap: 50px;
-}
-.Celebration-img{
- width: 70%;
- margin: 5px;
-}
-.Celebration-img img{
+} */
+.best-offer-section{
  width: 80%;
- margin: 10%;
- border-radius: 50px;
- border: 10px sodid red;
- padding: 20px;
-}
-.new-best-offer{
- color: #f00;
- font-family: "inter";
- font-size: 20px;
+ margin:auto;
+ padding-top: 80px;
+ justify-content: center;
+ /* display: grid; */
+ /* align-items: center; */
+ justify-content: space-between;
+ display: flex;
 }
 .year-title{
  color: #f00;
  font-family: "inter";
- font-size: 40px;
+ font-size: 80px;
  font-weight: 500;
+ padding: 0%;
+ margin-top: 0%;
 }
+.best-offer-left-content{
+width: 400px;
+justify-content: left;
+}
+
+.picture{
+width: 200px;
+height: 200px;
+background-color: #ff0000;
+border-radius: 50%;
+border: 10px solid red;
+padding: 5px;
+}
+
+ /*Holyday offer sale section 5 */
+
+ .header-function{
+  color: #070211;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+ }
+ .holiday{
+ color: #F00;
+text-align: center;
+font-family: "Merriweather";
+font-size: 75px;
+font-style: normal;
+font-weight: 900;
+ }
+ .holiday ,.der-functio{
+  gap: 0%;
+ }
+ .content{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+ }
