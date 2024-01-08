@@ -195,20 +195,24 @@ gap: 0%;
  }
 
  /*  THE BEST GIFTS section style 6*/
- .Portfolio-content{
+
+ /* .Portfolio-content{
   width: 80%;
   margin:auto;
   padding-top: 80px;
+padding-top: 80px;
+margin: 10%;
+align-items: center;
+padding-left: 50px;
+ } */
 
- }
-
-.work-content{
+/* .work-content{
 size: 80px;
-display: flex;
+display: inline-flex;
 align-items: center;
 gap: 20px;
- }
- .Portfolio{
+ } */
+/* .Portfolio{
 font-size: 45px;
 }
 .gift-content{
@@ -217,3 +221,29 @@ font-size: 45px;
 font-size: 30px;
 font-weight: 200;
 }
+.picture-size{
+width: 630px;}  */
+/* 
+.gif-sale{
+ width: 80%;
+ margin:auto;
+ padding-top: 80px;
+} */ 
+/* .portfolio-content{
+margin: auto;
+text-align: center;
+padding: ;
+
+.Portfolio-content{
+ width: 1320px;
+ margin: auto;
+
+}
+.picture-size{
+ gap: 5px;
+} */
+
+ /*  THE BEST GIFTS section style 6*/
+ .gift-content{
+  
+ }
