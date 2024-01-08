@@ -1,11 +1,20 @@
-
-.bigimage{
- width: 1920;
-height: 1080px;
+.all-style{
+ align-items: center;
+}
+.banner{
+ padding: 30px 30px 30px 150px;
+ display: flex;
+}
+.bigmage{
+text-align: center;
+ width: 1320px;
+height: 600px;
+flex-shrink: 0;
 position: relative;
 background-image: url("/resources/Banner\ Image.png");
 background-repeat: no-repeat;
 background-size: cover;
+
 }
 .overlay{
  width: 100%;
@@ -27,7 +36,7 @@ font-family: 'Merriweather';
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
-line-height: 95px; /* 131.944% */
+line-height: 95px; 
 }
 .first{
  color: #FFF;
@@ -43,31 +52,34 @@ line-height: normal;
 .section-title{
  color: #F00;
 text-align: center;
-font-family: Inter;
+font-family: "Inter";
 font-size: 88px;
 font-style: normal;
 font-weight: 700;
 line-height: normal
 }
-.section-description{
- color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.section-description{
+.content-description{
  color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+ text-align: center;
+ font-family: "Inter";
+ font-style: normal;
+ line-height: normal;
 }
-
-.header{
-
+.content-caption{
+ text-align: center;
+ font-family: "Inter";
+ font-style: normal;
+ line-height: normal;
+ color: #070211;
+ font-size: 48px;
+ font-weight: 700;
+}
+.centen-second{
+ width: 1600px;
+height: 7335px;
+background: #FFF;
+display: inline;
+}
+.imgages{
+ text-align: center;
 }
