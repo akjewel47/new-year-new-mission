@@ -263,3 +263,29 @@ line-height: 32px; /* 160% */
   padding: 0%;
   gap: 25px;
  }
+
+ /*Subscribe Newsletter section 7*/
+.search-action{
+ width: 450px;
+ margin: 20px auto 50px auto;
+ border-radius: 40px;
+ background: transparent;
+}
+/* inpute text style */
+.search-action input{
+ padding-left: 20px;
+ width: 330px;
+height: 20px;
+padding: 10px 5px;
+float: left;
+font:bold 13px "lucida sans","trebuchet MS","Tahoma";
+border: 0;
+background: #fff;
+box-shadow: 0 0 2px trgba(0 , 0 , 0 , 0.8)inset;
+}
+.search-action ,.input-placeholder{
+ color: #999;
+ font-weight: normal;
+ font-style: italic;
+ padding-left: 20px;
+}
