@@ -1,90 +1,50 @@
-.all-style{
- align-items: center;
+/* banner styel  = section style 1*/
+*{
+ header{
+  width: 80%;
+  margin: auto;
+ }
 }
-.banner{
- padding: 30px 30px 30px 150px;
- display: flex;
- align-items: center;
+/* google fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+ /* banner style first page */
+header{
+ width: 80%;
+ margin: auto;
 }
-.banner .profile-picture{
- width: 500px;
- align-items: center;
-}
-.bigmage{
-text-align: center;
- width: 1320px;
-height: 600px;
-flex-shrink: 0;
-position: relative;
-background-image: url("/resources/Banner\ Image.png");
-background-repeat: no-repeat;
-background-size: cover;
-
-}
-.overlay{
- width: 100%;
- height: 100%;
- font-size: 26px;
- color: wheat;
- display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); ;
-}
-.toper{
+.banner-section{
+ background-image:linear-gradient(180deg, #0f0e10 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
+ background-size:100% 100% ;
+ font-family: 'Merriweather', serif;
+ text-align: center;
+ padding: 150px 200px;
+ border-radius: 16px;
  color: #FFF;
+}
+.banner-section h5{
+ font-size: 100%;
+}
+.banner-section h1{
+ font-size: 72px;
+ font-weight: 900;
+ line-height: 95px;
+}
 
-text-align: center;
-font-family: 'Merriweather';
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px; 
-}
-.first{
- color: #FFF;
-width: 259px;
-height: 40px;
-text-align: center;
-font-family: 'Merriweather';;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.section-title{
- color: #F00;
-text-align: center;
-font-family: "Inter";
-font-size: 88px;
-font-style: normal;
+/*offer section style 2*/
+.offer-section h2{
+color: #ff0000;
+font-size: 70px;
 font-weight: 700;
-line-height: normal
+margin-bottom: 70px;
 }
-.content-description{
- color: #F00;
- text-align: center;
- font-family: "Inter";
- font-style: normal;
- line-height: normal;
+.offer-section p{
+ color: #ff0000;
+ font-size: 20px;
+ font-weight: 500;
 }
-.content-caption{
- text-align: center;
- font-family: "Inter";
- font-style: normal;
- line-height: normal;
- color: #070211;
- font-size: 48px;
- font-weight: 700;
+.new-year-img{
+ 
 }
-.centen-second{
- width: 1600px;
-height: 7335px;
-background: #FFF;
-display: inline;
-}
-.imgages{
- text-align: center;
-}
+
+
+/*section style 3 */
