@@ -193,3 +193,27 @@ line-height: 32px;
  .section-gap{
 gap: 0%;
  }
+
+ /*  THE BEST GIFTS section style 6*/
+ .Portfolio-content{
+  width: 80%;
+  margin:auto;
+  padding-top: 80px;
+
+ }
+
+.work-content{
+size: 80px;
+display: flex;
+align-items: center;
+gap: 20px;
+ }
+ .Portfolio{
+font-size: 45px;
+}
+.gift-content{
+ width: 1000px;
+ color: rgba(7, 2, 17, 0.60);
+font-size: 30px;
+font-weight: 200;
+}
