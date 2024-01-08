@@ -31,6 +31,11 @@ header{
 }
 
 /*offer section style 2*/
+.offer-section{
+ margin: 100px 0px;
+ font-family: "inter" , sans-serif;
+ text-align: center;
+}
 .offer-section h2{
 color: #ff0000;
 font-size: 70px;
@@ -42,8 +47,9 @@ margin-bottom: 70px;
  font-size: 20px;
  font-weight: 500;
 }
-.new-year-img{
- 
+.new-year-img h3{
+  font-size: 40px;
+  font-weight: 700;
 }
 
 
