@@ -8,29 +8,27 @@
 /* banner style first page */
 
  header{
-  width:80%;
-  margin:auto;
+width:80%;
+ margin:auto;
 
  }
 
 .banner-section{ 
-background-image: url("/resources/Banner\ Image.png");
+background-image: url("../resources/Banner\ Image.png");
 font-family: 'Merriweather', serif;
 text-align: center;
  padding: 60px 100px;
  border-radius: 20px;
  color:#fff;
- background-repeat:no-repeat ;
+ background-repeat:no-repeat;
  padding-bottom: 200px;
-
 }
 
 .banner-section h5{
   font-size: 32px;
-
 }
 
-.banner-section h1 {
+.banner-section h1{
  font-size: 73px;
  font-weight: 900;
  line-height: 95px;
