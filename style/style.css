@@ -22,13 +22,17 @@
  color: #FFF;
 }
 
-/* .banner-section h1 {
+.banner-section h5{
+  font-size: 32px;
+}
+
+.banner-section h1 {
  
  font-size: 72px;
  font-weight: 900;
  line-height: 95px;
 
-} */
+}
 
 /* offer section style 2
 
