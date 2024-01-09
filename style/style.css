@@ -153,12 +153,12 @@ background-color: #ff0000;
 border-radius: 50%;
 border: 10px solid red;
 padding: 5px;
-} */
+}
 
  /*Holyday offer sale section 5 */
 
 
- /* .holiday-sale{
+ .holiday-sale{
   width: 80%;
   margin:auto;
   padding-top: 80px;
@@ -189,12 +189,13 @@ line-height: 32px;
  }
 .section-gap{
 gap: 0%;
- } */
+ }
 
  
 
  /*  THE BEST GIFTS section style 6*/
- /* .Portfolio-content{
+ 
+ .Portfolio-content{
   width: 80%;
   margin:auto;
   padding-top: 80px;
@@ -216,12 +217,21 @@ line-height: 32px;
  .flex{
   padding: 20px;
 font-weight: 100px;
- } */
-
+ }
+.picture-size{
+display: flex;
+gap: 20px;
+}
+.picture-2{
+  display: flex;
+gap: 20px;
+}
+.section-2{
+  
+}
  
 /* form section style */
-
-/* .form-section{
+.form-section{
 width: 80%;
 margin:auto;
 padding-top: 80px;
@@ -251,4 +261,4 @@ font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 10px;
-} */
+}
