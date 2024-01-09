@@ -8,28 +8,32 @@
 /* banner style first page */
 
  header{
-  width: 90%;
+  width:80%;
   margin:auto;
+
  }
 
 .banner-section{ 
+background-image: url("/resources/Banner\ Image.png");
  font-family: 'Merriweather', serif;
- text-align: center;
- padding: 60px 200px;
- border-radius: 16px;
- color:#FFF;
- background-repeat: no-repeat;
+text-align: center;
+ padding: 60px 100px;
+ border-radius: 20px;
+ color:#fff;
+ background-repeat:no-repeat ;
+ padding-bottom: 200px;
+
 }
 
 .banner-section h5{
   font-size: 32px;
+
 }
 
 .banner-section h1 {
  font-size: 72px;
  font-weight: 900;
  line-height: 95px;
-
 }
 
 /* offer section style 2
