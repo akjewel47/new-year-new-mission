@@ -227,6 +227,25 @@ gap: 20px;
 }
  
 /* form section style */
+.type-box{
+  text-align: center;
+}
+.box{
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  height: 40px;
+}
+.btn-2{
+  padding: 22px;
+  color: white;
+  background-color: #F00;
+  
+}
+
+
 .form-section{
 width: 80%;
 margin:auto;
@@ -257,4 +276,24 @@ font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 10px;
+}
+
+
+
+
+.footer{
+  background-color: black;
+}
+.footer-text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  margin-top: 10px;
+}
+.footer-image{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
 }
