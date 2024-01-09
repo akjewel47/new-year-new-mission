@@ -115,17 +115,7 @@ padding: 20px;
 
 /* Best offer 2024 section style 5 */
 
-/* .best-offer-section{
- width: 80%;
- margin:auto;
- padding-top: 80px;
- margin-top: 100px;
- display:flex;
- flex-direction: row;
- row-gap: 150px;
- justify-content: center;
- column-gap: 50px;
-} */
+
 .best-offer-section{
  width: 80%;
  margin:auto;
@@ -190,102 +180,68 @@ font-size: 30px;
 font-weight: 500;
 line-height: 32px; 
  }
- .section-gap{
+.section-gap{
 gap: 0%;
  }
 
- /*  THE BEST GIFTS section style 6*/
+ 
 
- /* .Portfolio-content{
+ /*  THE BEST GIFTS section style 6*/
+ .Portfolio-content{
   width: 80%;
   margin:auto;
   padding-top: 80px;
-padding-top: 80px;
-margin: 10%;
-align-items: center;
-padding-left: 50px;
- } */
-
-/* .work-content{
-size: 80px;
-display: inline-flex;
-align-items: center;
-gap: 20px;
- } */
-/* .Portfolio{
-font-size: 45px;
-}
-.gift-content{
- width: 1000px;
- color: rgba(7, 2, 17, 0.60);
-font-size: 30px;
-font-weight: 200;
-}
-.picture-size{
-width: 630px;}  */
-/* 
-.gif-sale{
- width: 80%;
- margin:auto;
- padding-top: 80px;
-} */ 
-/* .portfolio-content{
-margin: auto;
-text-align: center;
-padding: ;
-
-.Portfolio-content{
- width: 1320px;
- margin: auto;
-
-}
-.picture-size{
- gap: 5px;
-} */
-
- /*  THE BEST GIFTS section style 6*/
+ }
  .gift-content{
 color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
-font-size: 20px;
+font-size: 40px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 32px;
  }
  .content-sale{
   padding: 100px 200px;
   margin-bottom: 10px;
  }
- .picture-size{
-  padding: 0px 200px;
- }
- .flex.content-sal{
-  padding: 0%;
-  gap: 25px;
+ 
+
+ .flex{
+  padding: 20px;
+font-weight: 100px;
  }
 
- /*Subscribe Newsletter section 7*/
-.search-action{
- width: 450px;
- margin: 20px auto 50px auto;
- border-radius: 40px;
- background: transparent;
+ 
+/* form section style */
+
+.form-section{
+width: 80%;
+margin:auto;
+padding-top: 80px;
+width: 1320px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+justify-content: center;
+display: flex;
 }
-/* inpute text style */
-.search-action input{
- padding-left: 20px;
- width: 330px;
-height: 20px;
-padding: 10px 5px;
-float: left;
-font:bold 13px "lucida sans","trebuchet MS","Tahoma";
-border: 0;
-background: #fff;
-box-shadow: 0 0 2px trgba(0 , 0 , 0 , 0.8)inset;
+
+.form-title{
+  background-size: 140px 140px ;
+color: #070211;
+text-align: center;
+font-family: "Merriweather";
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+text-transform: capitalize;
 }
-.search-action ,.input-placeholder{
- color: #999;
- font-weight: normal;
- font-style: italic;
- padding-left: 20px;
+.form-description{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 10px;
 }
